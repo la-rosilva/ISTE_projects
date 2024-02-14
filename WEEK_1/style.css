@@ -1,0 +1,187 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    margin: 0; /* Remove default margin to ensure full viewport coverage */
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slide1 {
+    width: 100%;
+    min-height: 100vh; 
+    background-image: url("images/cover.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slide1 h1 {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.6);
+    margin-top: 80px;
+    font-size: 100px;
+    font-family: 'Cinzel', serif;
+}
+
+.slide1 h3 {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.6);
+    margin-top: 170px;
+    font-size: 50px;
+    font-family: 'Allura', cursive;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/bg1.jpg");
+    background-size: cover;
+}
+
+.left {
+    width: 40%;
+    height: 600px;
+    background: url("images/The_swing.jpg") no-repeat center /cover;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.right {
+    width: 40%;                                                                                    
+    min-height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    border: solid 2px red;
+    backdrop-filter: blur(20px);
+    box-shadow: 10px 20px rgba(0,0,0,0.5);
+    border: solid 2px rgba(255,255,255,0.027);
+
+    color: white;
+
+    margin-left: 500px;
+   
+    margin-top: -70px;
+}
+
+.right h1 {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.right p {
+    margin: 40px 0 ;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+.right1 {
+    width: 40%;
+    height: 800px;
+    background: url("images/Mona_Lisa.jpg") no-repeat center /cover;
+    border-radius: 8px;
+    margin-top: 300px;
+    margin-left: 800px;
+}
+
+.left1 {
+    width: 40%;                                                                                    
+    min-height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    border: solid 2px red;
+    backdrop-filter: blur(20px);
+    box-shadow: 10px 20px rgba(0,0,0,0.5);
+    border: solid 2px rgba(255,255,255,0.027);
+
+    color: white;
+
+    margin-left: 300px;
+   
+    margin-top: -200px;
+}
+
+.left1 h1 {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.left1 p {
+    margin: 40px 0 ;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+.left2 {
+    width: 40%;
+    height: 780px;
+    background: url("images/Laughing_Cavalier.jpg") no-repeat center /cover;
+    border-radius: 8px;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+
+.right2 {
+    width: 40%;                                                                                    
+    min-height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    border: solid 2px red;
+    backdrop-filter: blur(20px);
+    box-shadow: 10px 20px rgba(0,0,0,0.5);
+    border: solid 2px rgba(255,255,255,0.027);
+
+    color: white;
+
+    margin-left: 500px;
+   
+    margin-top: -130px;
+}
+
+.right2 h1 {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.right2 p {
+    margin: 40px 0 ;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+}
+
