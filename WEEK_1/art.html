@@ -74,6 +74,36 @@
     </div>
    </div>
   </section>
+  <section>
+    <div class="feedback-container">
+      <div class="feedback-form">
+         <h2>Feedback Form</h2>
+         <form id="feedbackForm">
+             <div>
+                 <label for="name">Your Name:</label>
+                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
+             </div>
+             <div>
+                 <label for="email">Your Email:</label>
+                 <input type="email" id="email" name="email" placeholder="Enter your Email ID" required>
+             </div>
+             <div>
+                 <label for="feedback">Feedback:</label>
+                 <textarea id="feedback" name="feedback" rows="4" placeholder="Type your feedback..." required></textarea>
+             </div>
+             <div>
+                 <button type="submit">Submit Feedback</button>
+             </div>
+         </form>
+         <div id="feedbackMessage" style="display: none;">Thank you for the feedback!</div>
+ 
+      </div>
+     </div>
+  
+   </section>
+ 
+ <script src="script.js"></script>
+  
 </body>
 </html>
 
